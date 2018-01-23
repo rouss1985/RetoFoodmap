@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodmap</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="small-12 medium-12 large-12 columns">
+      <h1>Foodmap</h1>
+    </div>
+    <div class="small-12 medium-12 large-12 columns">
+      <img class="decoracion" src="./assets/images/adorno.jpg" alt="">
+    </div>
+    <div class="small-12 medium-12 large-12 columns">
+      <div class="map">
+        <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15051.205928938152!2d-99.02947105310832!3d19.420981504238842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+nezahualcoyotl!5e0!3m2!1ses!2smx!4v1516500306992" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="small-12 medium-12 large-12 columns">
+      <h2 class="title1">Comida cerca de ti</h2>
+      <div class="selector">
+        <select id="opcion">
+          <option value="">Selecciona una opción</option>
+          <option value="">Ver todas</option>
+          <option value="Mexicana">Comida mexicana</option>
+          <option value="China">Comida china</option>
+          <option value="Italiana">Comida italiana</option>
+          <option value="Japonesa">Comida japonesa</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-4 medium-4 large-4 columns Mexicana comidas">
+        <a data-open="exampleModal1" data-titulo="Comida Mexicana" class="modalcomida">
+          <img class="Wimages"src="./assets/images/comida_mexicana1.jpg" alt="">
+        </a>
+      </div>
+      <div class="small-4 medium-4 large-4 columns comidas China">
+        <a data-open="exampleModal1" data-titulo="Comida China" class="modalcomida">
+          <img class="Wimages" src="./assets/images/comida_china2.jpg" alt="">
+        </a>
+      </div>
+      <div class="small-4 medium-4 large-4 columns comidas Italiana">
+        <a data-open="exampleModal1" data-titulo="Comida Italiana" class="modalcomida">
+          <img class="Wimages" src="./assets/images/comida_italiana2.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="small-6 medium-6 large-6 columns comidas Mexicana">
+        <a data-open="exampleModal1" data-titulo="Comida Mexicana" class="modalcomida">
+          <img class="Wimages2"src="./assets/images/comida_mexicana2.jpg" alt="">
+        </a>
+      </div>
+      <div class="small-6 medium-6 large-6 columns comidas China">
+        <a data-open="exampleModal1" data-titulo="Comida China" class="modalcomida">
+          <img class="Wimages2" src="./assets/images/comida_china1.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="small-4 medium-4 large-4 columns comidas Mexicana">
+        <a data-open="exampleModal1" data-titulo="Comida Mexicana" class="modalcomida">
+          <img class="Wimages3"src="./assets/images/comida_mexicana3.jpg" alt="">
+        </a>
+      </div>
+      <div class="small-4 medium-4 large-4 columns comidas Italiana">
+        <a data-open="exampleModal1" data-titulo="Comida Italiana" class="modalcomida">
+          <img class="Wimages3" src="./assets/images/comida_italiana3.jpg" alt="">
+        </a>
+      </div>
+      <div class="small-4 medium-4 large-4 columns comidas Japonesa">
+        <a data-open="exampleModal1" data-titulo="Comida Japonesa" class="modalcomida">
+          <img class="Wimages3" src="./assets/images/comida_japonesa3.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="small-6 medium-6 large-6 columns comidas Italiana">
+        <a data-open="examspleModal1" data-titulo="Comida Italiana" class="modalcomida">
+          <img class="Wimages3" src="./assets/images/comida_italiana1.png" alt="">
+        </a>
+      </div>
+      <div class="small-6 medium-6 large-6 columns comidas Japonesa">
+        <a data-open="exampleModal1" data-titulo="Comida Japonesa" class="modalcomida">
+          <img class="Wimages3" src="./assets/images/comida_japonesa2.jpg" alt="">
+        </a>
+      </div>
+    </div>
+
+    <!--modal 1-->
+    <div class="reveal .small" id="exampleModal1" data-reveal>
+      <div class="row center small-12 medium-12 large-12 columns">
+        <h1 id="elTitulo">Comida mexicana</h1>
+      </div>
+      <div class="row center mapa small-12 medium-12 large-12 columns">
+        <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15051.205928938152!2d-99.02947105310832!3d19.420981504238842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+nezahualcoyotl!5e0!3m2!1ses!2smx!4v1516500306992" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="row center small-12 medium-12 large-12 columns">
+        <h3>Comida para todos los gustos</h1>
+      </div>
+      <div class="row center">
+        <div class="small-6 medium-6 large-6 columns">
+          <p>Calle imaginate #45
+          como llegarias
+        a esta dirección</p>
+        </div>
+        <div class="small-6 medium-6 large-6 columns">
+          <p>Rango de precios $$
+          Servicio a domicilio
+        Compra en linea</p>
+        </div>
+      </div>
+      <div id="center" class="row">
+        <button class="button secondary" type="button" name="button">Pedir ahora</button>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <!--Cierre de modal1-->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
